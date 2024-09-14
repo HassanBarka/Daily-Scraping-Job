@@ -1,0 +1,33 @@
+[2024-07-23T20:13:16.462+0100] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-07-23T20:13:16.500+0100] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: jobs_etl.glassdoor_scraper scheduled__2024-07-22T18:00:00+00:00 [queued]>
+[2024-07-23T20:13:16.508+0100] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: jobs_etl.glassdoor_scraper scheduled__2024-07-22T18:00:00+00:00 [queued]>
+[2024-07-23T20:13:16.509+0100] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2024-07-23T20:13:16.520+0100] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): glassdoor_scraper> on 2024-07-22 18:00:00+00:00
+[2024-07-23T20:13:16.527+0100] {standard_task_runner.py:63} INFO - Started process 492960 to run task
+[2024-07-23T20:13:16.532+0100] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'jobs_etl', 'glassdoor_scraper', 'scheduled__2024-07-22T18:00:00+00:00', '--job-id', '197', '--raw', '--subdir', 'DAGS_FOLDER/jobs_etl.py', '--cfg-path', '/tmp/tmpd69_qar0']
+[2024-07-23T20:13:16.535+0100] {standard_task_runner.py:91} INFO - Job 197: Subtask glassdoor_scraper
+[2024-07-23T20:13:16.612+0100] {task_command.py:426} INFO - Running <TaskInstance: jobs_etl.glassdoor_scraper scheduled__2024-07-22T18:00:00+00:00 [running]> on host huser
+[2024-07-23T20:13:16.738+0100] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='hassounibarka@gmail.com' AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='jobs_etl' AIRFLOW_CTX_TASK_ID='glassdoor_scraper' AIRFLOW_CTX_EXECUTION_DATE='2024-07-22T18:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-07-22T18:00:00+00:00'
+[2024-07-23T20:13:16.739+0100] {taskinstance.py:430} INFO - ::endgroup::
+[2024-07-23T20:13:50.459+0100] {logging_mixin.py:188} INFO - 20 jobs found for data Scientist
+[2024-07-23T20:37:51.926+0100] {logging_mixin.py:188} INFO - 1 Jobs extracted2 Jobs extracted3 Jobs extracted4 Jobs extracted5 Jobs extracted6 Jobs extracted7 Jobs extracted8 Jobs extracted9 Jobs extracted10 Jobs extracted11 Jobs extracted12 Jobs extracted13 Jobs extracted14 Jobs extracted15 Jobs extracted16 Jobs extracted17 Jobs extracted18 Jobs extracted19 Jobs extracted20 Jobs extracted20 jobs found for data analyst
+[2024-07-23T20:42:49.747+0100] {logging_mixin.py:188} INFO - 1 Jobs extracted2 Jobs extracted3 Jobs extracted4 Jobs extracted5 Jobs extracted6 Jobs extracted7 Jobs extracted8 Jobs extracted9 Jobs extracted10 Jobs extracted11 Jobs extracted12 Jobs extracted13 Jobs extracted14 Jobs extracted15 Jobs extracted16 Jobs extracted17 Jobs extracted18 Jobs extracted19 Jobs extracted20 Jobs extracted20 jobs found for data engineer
+[2024-07-23T20:47:29.896+0100] {logging_mixin.py:188} INFO - 1 Jobs extracted2 Jobs extracted3 Jobs extracted4 Jobs extracted5 Jobs extracted6 Jobs extracted7 Jobs extracted8 Jobs extracted9 Jobs extracted10 Jobs extracted11 Jobs extracted12 Jobs extracted13 Jobs extracted14 Jobs extracted15 Jobs extracted16 Jobs extracted17 Jobs extracted18 Jobs extracted19 Jobs extracted20 Jobs extracted20 jobs found for web developer
+[2024-07-23T20:48:47.067+0100] {logging_mixin.py:188} INFO - 1 Jobs extracted2 Jobs extracted3 Jobs extracted4 Jobs extractedNo more
+[2024-07-23T20:49:16.602+0100] {logging_mixin.py:188} INFO - 5 Jobs extracted6 Jobs extractedNo more
+[2024-07-23T20:49:50.908+0100] {logging_mixin.py:188} INFO - 7 Jobs extracted8 Jobs extracted9 Jobs extractedNo more
+[2024-07-23T20:50:17.496+0100] {logging_mixin.py:188} INFO - 10 Jobs extracted11 Jobs extractedNo more
+[2024-07-23T20:50:28.502+0100] {logging_mixin.py:188} INFO - 12 Jobs extractedNo more
+[2024-07-23T20:50:39.653+0100] {logging_mixin.py:188} INFO - 13 Jobs extractedNo more
+[2024-07-23T20:52:24.221+0100] {logging_mixin.py:188} INFO - 14 Jobs extracted15 Jobs extracted16 Jobs extracted17 Jobs extracted18 Jobs extracted19 Jobs extracted20 Jobs extracted20 jobs found for mobile developer
+[2024-07-23T20:52:36.595+0100] {logging_mixin.py:188} INFO - No more
+[2024-07-23T20:53:08.387+0100] {logging_mixin.py:188} INFO - 1 Jobs extracted2 Jobs extracted3 Jobs extractedNo more
+[2024-07-23T20:55:05.339+0100] {logging_mixin.py:188} INFO - 4 Jobs extracted5 Jobs extracted6 Jobs extracted7 Jobs extracted8 Jobs extracted9 Jobs extracted10 Jobs extracted11 Jobs extracted12 Jobs extracted13 Jobs extractedNo more
+[2024-07-23T20:55:15.299+0100] {logging_mixin.py:188} INFO - 14 Jobs extractedNo more
+[2024-07-23T20:56:19.715+0100] {logging_mixin.py:188} INFO - 15 Jobs extracted16 Jobs extracted17 Jobs extracted18 Jobs extracted19 Jobs extracted20 Jobs extractedDone!
+[2024-07-23T20:56:19.715+0100] {python.py:237} INFO - Done. Returned value was: None
+[2024-07-23T20:56:19.716+0100] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-07-23T20:56:19.733+0100] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=jobs_etl, task_id=glassdoor_scraper, run_id=scheduled__2024-07-22T18:00:00+00:00, execution_date=20240722T180000, start_date=20240723T191316, end_date=20240723T195619
+[2024-07-23T20:56:19.784+0100] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-07-23T20:56:19.830+0100] {taskinstance.py:3498} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-07-23T20:56:19.831+0100] {local_task_job_runner.py:222} INFO - ::endgroup::

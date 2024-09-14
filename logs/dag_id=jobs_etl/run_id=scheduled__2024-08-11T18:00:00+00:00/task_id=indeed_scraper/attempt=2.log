@@ -1,0 +1,24 @@
+[2024-08-12T21:29:03.539+0100] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-08-12T21:29:03.586+0100] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: jobs_etl.indeed_scraper scheduled__2024-08-11T18:00:00+00:00 [queued]>
+[2024-08-12T21:29:03.592+0100] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: jobs_etl.indeed_scraper scheduled__2024-08-11T18:00:00+00:00 [queued]>
+[2024-08-12T21:29:03.593+0100] {taskinstance.py:2306} INFO - Starting attempt 2 of 3
+[2024-08-12T21:29:03.602+0100] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): indeed_scraper> on 2024-08-11 18:00:00+00:00
+[2024-08-12T21:29:03.612+0100] {standard_task_runner.py:63} INFO - Started process 986431 to run task
+[2024-08-12T21:29:03.616+0100] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'jobs_etl', 'indeed_scraper', 'scheduled__2024-08-11T18:00:00+00:00', '--job-id', '354', '--raw', '--subdir', 'DAGS_FOLDER/jobs_etl.py', '--cfg-path', '/tmp/tmpccws3nct']
+[2024-08-12T21:29:03.619+0100] {standard_task_runner.py:91} INFO - Job 354: Subtask indeed_scraper
+[2024-08-12T21:29:03.689+0100] {task_command.py:426} INFO - Running <TaskInstance: jobs_etl.indeed_scraper scheduled__2024-08-11T18:00:00+00:00 [running]> on host huser
+[2024-08-12T21:29:03.799+0100] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='hassounibarka@gmail.com' AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='jobs_etl' AIRFLOW_CTX_TASK_ID='indeed_scraper' AIRFLOW_CTX_EXECUTION_DATE='2024-08-11T18:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-08-11T18:00:00+00:00'
+[2024-08-12T21:29:03.800+0100] {taskinstance.py:430} INFO - ::endgroup::
+[2024-08-12T21:30:14.519+0100] {local_task_job_runner.py:310} WARNING - State of this instance has been externally set to failed. Terminating instance.
+[2024-08-12T21:30:14.521+0100] {local_task_job_runner.py:222} INFO - ::endgroup::
+[2024-08-12T21:30:14.531+0100] {process_utils.py:132} INFO - Sending 15 to group 986431. PIDs of all processes in the group: [986431]
+[2024-08-12T21:30:14.531+0100] {process_utils.py:87} INFO - Sending the signal 15 to group 986431
+[2024-08-12T21:30:14.532+0100] {taskinstance.py:2611} ERROR - Received SIGTERM. Terminating subprocesses.
+[2024-08-12T21:30:14.532+0100] {logging_mixin.py:188} INFO - Error URL
+[2024-08-12T21:30:14.533+0100] {logging_mixin.py:188} INFO - 0 Jobs found for data Scientist
+[2024-08-12T21:30:46.765+0100] {logging_mixin.py:188} INFO - Error URL
+[2024-08-12T21:30:46.780+0100] {logging_mixin.py:188} INFO - 0 Jobs found for data analyst
+[2024-08-12T21:31:14.544+0100] {process_utils.py:150} WARNING - process psutil.Process(pid=986431, name='airflow task runner: jobs_etl indeed_scraper scheduled__2024-08-11T18:00:00+00:00 354', status='sleeping', started='21:29:02') did not respond to SIGTERM. Trying SIGKILL
+[2024-08-12T21:31:14.545+0100] {process_utils.py:87} INFO - Sending the signal 9 to group 986431
+[2024-08-12T21:31:14.578+0100] {process_utils.py:80} INFO - Process psutil.Process(pid=986431, name='airflow task runner: jobs_etl indeed_scraper scheduled__2024-08-11T18:00:00+00:00 354', status='terminated', exitcode=<Negsignal.SIGKILL: -9>, started='21:29:02') (986431) terminated with exit code -9
+[2024-08-12T21:31:14.579+0100] {standard_task_runner.py:178} ERROR - Job 354 was killed before it finished (likely due to running out of memory)

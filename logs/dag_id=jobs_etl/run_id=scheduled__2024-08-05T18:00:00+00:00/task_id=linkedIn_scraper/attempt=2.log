@@ -1,0 +1,98 @@
+[2024-08-06T23:51:43.792+0100] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-08-06T23:51:43.849+0100] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: jobs_etl.linkedIn_scraper scheduled__2024-08-05T18:00:00+00:00 [queued]>
+[2024-08-06T23:51:43.858+0100] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: jobs_etl.linkedIn_scraper scheduled__2024-08-05T18:00:00+00:00 [queued]>
+[2024-08-06T23:51:43.858+0100] {taskinstance.py:2306} INFO - Starting attempt 2 of 2
+[2024-08-06T23:51:43.869+0100] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): linkedIn_scraper> on 2024-08-05 18:00:00+00:00
+[2024-08-06T23:51:43.877+0100] {standard_task_runner.py:63} INFO - Started process 699703 to run task
+[2024-08-06T23:51:43.881+0100] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'jobs_etl', 'linkedIn_scraper', 'scheduled__2024-08-05T18:00:00+00:00', '--job-id', '308', '--raw', '--subdir', 'DAGS_FOLDER/jobs_etl.py', '--cfg-path', '/tmp/tmpdhbaekp4']
+[2024-08-06T23:51:43.884+0100] {standard_task_runner.py:91} INFO - Job 308: Subtask linkedIn_scraper
+[2024-08-06T23:51:43.954+0100] {task_command.py:426} INFO - Running <TaskInstance: jobs_etl.linkedIn_scraper scheduled__2024-08-05T18:00:00+00:00 [running]> on host huser
+[2024-08-06T23:51:44.059+0100] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='hassounibarka@gmail.com' AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='jobs_etl' AIRFLOW_CTX_TASK_ID='linkedIn_scraper' AIRFLOW_CTX_EXECUTION_DATE='2024-08-05T18:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-08-05T18:00:00+00:00'
+[2024-08-06T23:51:44.060+0100] {taskinstance.py:430} INFO - ::endgroup::
+[2024-08-06T23:55:14.925+0100] {logging_mixin.py:188} INFO - number_of_jobs: 341
+[2024-08-06T23:55:14.926+0100] {logging_mixin.py:188} INFO - number_of_pages: 14
+[2024-08-06T23:55:14.926+0100] {logging_mixin.py:188} INFO - Scraping page: 1
+[2024-08-06T23:55:14.928+0100] {logging_mixin.py:188} INFO - done!
+[2024-08-06T23:55:14.928+0100] {logging_mixin.py:188} INFO - Scraping page: 2
+[2024-08-06T23:56:04.530+0100] {logging_mixin.py:188} INFO - done!
+[2024-08-06T23:56:04.530+0100] {logging_mixin.py:188} INFO - Scraping page: 3
+[2024-08-06T23:56:32.791+0100] {logging_mixin.py:188} INFO - done!
+[2024-08-06T23:56:32.792+0100] {logging_mixin.py:188} INFO - Scraping page: 4
+[2024-08-06T23:57:11.620+0100] {logging_mixin.py:188} INFO - done!
+[2024-08-06T23:57:11.621+0100] {logging_mixin.py:188} INFO - Scraping page: 5
+[2024-08-07T00:07:22.472+0100] {logging_mixin.py:188} INFO - 1 Jobs read2 Jobs read3 Jobs read4 Jobs read5 Jobs read6 Jobs read7 Jobs read8 Jobs read9 Jobs read10 Jobs read11 Jobs read12 Jobs read13 Jobs read14 Jobs read15 Jobs read16 Jobs read17 Jobs read18 Jobs read19 Jobs read20 Jobs read21 Jobs read22 Jobs read23 Jobs read24 Jobs read25 Jobs read26 Jobs read27 Jobs read28 Jobs read29 Jobs read30 Jobs read31 Jobs read32 Jobs read33 Jobs read34 Jobs read35 Jobs read36 Jobs read37 Jobs read38 Jobs read39 Jobs read40 Jobs read41 Jobs read42 Jobs read43 Jobs read44 Jobs read45 Jobs read46 Jobs read47 Jobs read48 Jobs read49 Jobs read50 Jobs read51 Jobs read52 Jobs read53 Jobs read54 Jobs read55 Jobs read56 Jobs read57 Jobs read58 Jobs read59 Jobs read60 Jobs read61 Jobs read62 Jobs read63 Jobs read64 Jobs read65 Jobs read66 Jobs read67 Jobs read68 Jobs read69 Jobs read70 Jobs read71 Jobs read72 Jobs read73 Jobs read74 Jobs read75 Jobs read76 Jobs read77 Jobs read78 Jobs read79 Jobs read80 Jobs read81 Jobs read82 Jobs read83 Jobs read84 Jobs read85 Jobs read86 Jobs read87 Jobs read88 Jobs read89 Jobs read90 Jobs read91 Jobs read92 Jobs read93 Jobs read94 Jobs read95 Jobs read96 Jobs read97 Jobs read98 Jobs read99 Jobs read100 Jobs read101 Jobs read102 Jobs read103 Jobs read104 Jobs read105 Jobs read106 Jobs read107 Jobs read108 Jobs read109 Jobs read110 Jobs read111 Jobs read112 Jobs read113 Jobs read114 Jobs read115 Jobs read116 Jobs read117 Jobs read118 Jobs read119 Jobs read120 Jobs read121 Jobs read122 Jobs read123 Jobs read124 Jobs read125 Jobs readnumber_of_jobs: 1
+[2024-08-07T00:07:22.473+0100] {logging_mixin.py:188} INFO - number_of_pages: 1
+[2024-08-07T00:07:22.474+0100] {logging_mixin.py:188} INFO - Scraping page: 1
+[2024-08-07T00:07:22.476+0100] {logging_mixin.py:188} INFO - done!
+[2024-08-07T00:09:09.766+0100] {logging_mixin.py:188} INFO - 1 Jobs readnumber_of_jobs: 80
+[2024-08-07T00:09:09.767+0100] {logging_mixin.py:188} INFO - number_of_pages: 4
+[2024-08-07T00:09:09.767+0100] {logging_mixin.py:188} INFO - Scraping page: 1
+[2024-08-07T00:09:09.770+0100] {logging_mixin.py:188} INFO - done!
+[2024-08-07T00:09:09.770+0100] {logging_mixin.py:188} INFO - Scraping page: 2
+[2024-08-07T00:10:52.615+0100] {logging_mixin.py:188} INFO - done!
+[2024-08-07T00:10:52.616+0100] {logging_mixin.py:188} INFO - Scraping page: 3
+[2024-08-07T00:12:39.793+0100] {logging_mixin.py:188} INFO - done!
+[2024-08-07T00:12:39.794+0100] {logging_mixin.py:188} INFO - Scraping page: 4
+[2024-08-07T00:14:27.312+0100] {logging_mixin.py:188} INFO - done!
+[2024-08-07T00:16:04.888+0100] {logging_mixin.py:188} INFO - 1 Jobs read2 Jobs read3 Jobs read4 Jobs read5 Jobs read6 Jobs read7 Jobs read8 Jobs read9 error read Job ID: 3992376554
+[2024-08-07T00:16:35.186+0100] {logging_mixin.py:188} INFO - 10 Jobs read11 error read Job ID: 3993774289
+[2024-08-07T00:24:36.260+0100] {logging_mixin.py:188} INFO - 12 Jobs read13 Jobs read14 Jobs read15 Jobs read16 Jobs read17 Jobs read18 Jobs read19 Jobs read20 Jobs read21 Jobs read22 Jobs read23 Jobs read24 Jobs read25 Jobs read26 Jobs read27 Jobs read28 Jobs read29 Jobs read30 Jobs read31 Jobs read32 Jobs read33 Jobs read34 Jobs read35 Jobs read36 Jobs read37 Jobs read38 Jobs read39 Jobs read40 Jobs read41 Jobs read42 Jobs read43 Jobs read44 Jobs read45 Jobs read46 Jobs read47 Jobs read48 Jobs read49 Jobs read50 Jobs read51 Jobs read52 Jobs read53 Jobs read54 Jobs read55 Jobs read56 Jobs read57 Jobs read58 Jobs read59 Jobs read60 Jobs read61 Jobs read62 Jobs read63 Jobs read64 Jobs read65 Jobs read66 Jobs read67 Jobs read68 Jobs read69 Jobs read70 Jobs read71 Jobs read72 Jobs read73 Jobs read74 Jobs read75 Jobs read76 Jobs read77 Jobs read78 Jobs read79 Jobs readnumber_of_jobs: 1
+[2024-08-07T00:24:36.261+0100] {logging_mixin.py:188} INFO - number_of_pages: 1
+[2024-08-07T00:24:36.261+0100] {logging_mixin.py:188} INFO - Scraping page: 1
+[2024-08-07T00:24:36.263+0100] {logging_mixin.py:188} INFO - done!
+[2024-08-07T00:26:43.104+0100] {logging_mixin.py:188} INFO - 1 Jobs readnumber_of_jobs: 213
+[2024-08-07T00:26:43.105+0100] {logging_mixin.py:188} INFO - number_of_pages: 9
+[2024-08-07T00:26:43.105+0100] {logging_mixin.py:188} INFO - Scraping page: 1
+[2024-08-07T00:26:43.108+0100] {logging_mixin.py:188} INFO - done!
+[2024-08-07T00:26:43.108+0100] {logging_mixin.py:188} INFO - Scraping page: 2
+[2024-08-07T00:27:52.320+0100] {logging_mixin.py:188} INFO - done!
+[2024-08-07T00:27:52.321+0100] {logging_mixin.py:188} INFO - Scraping page: 3
+[2024-08-07T00:29:57.034+0100] {logging_mixin.py:188} INFO - done!
+[2024-08-07T00:29:57.039+0100] {logging_mixin.py:188} INFO - Scraping page: 4
+[2024-08-07T00:30:16.980+0100] {logging_mixin.py:188} INFO - done!
+[2024-08-07T00:30:16.981+0100] {logging_mixin.py:188} INFO - Scraping page: 5
+[2024-08-07T00:32:25.924+0100] {logging_mixin.py:188} INFO - done!
+[2024-08-07T00:32:25.925+0100] {logging_mixin.py:188} INFO - Scraping page: 6
+[2024-08-07T00:34:09.867+0100] {logging_mixin.py:188} INFO - done!
+[2024-08-07T00:34:09.868+0100] {logging_mixin.py:188} INFO - Scraping page: 7
+[2024-08-07T00:44:44.494+0100] {logging_mixin.py:188} INFO - 1 Jobs read2 Jobs read3 Jobs read4 Jobs read5 Jobs read6 Jobs read7 Jobs read8 Jobs read9 Jobs read10 Jobs read11 Jobs read12 Jobs read13 Jobs read14 Jobs read15 Jobs read16 Jobs read17 Jobs read18 Jobs read19 Jobs read20 Jobs read21 Jobs read22 Jobs read23 Jobs read24 Jobs read25 Jobs read26 Jobs read27 Jobs read28 Jobs read29 Jobs read30 Jobs read31 Jobs read32 Jobs read33 Jobs read34 Jobs read35 Jobs read36 Jobs read37 Jobs read38 Jobs read39 Jobs read40 Jobs read41 Jobs read42 Jobs read43 Jobs read44 Jobs read45 Jobs read46 Jobs read47 Jobs read48 Jobs read49 Jobs read50 Jobs read51 Jobs read52 Jobs read53 Jobs read54 Jobs read55 Jobs read56 Jobs read57 Jobs read58 Jobs read59 Jobs read60 Jobs read61 Jobs read62 Jobs read63 Jobs read64 Jobs read65 Jobs read66 Jobs read67 Jobs read68 Jobs read69 Jobs read70 Jobs read71 Jobs read72 Jobs read73 Jobs read74 Jobs read75 Jobs read76 Jobs read77 Jobs read78 Jobs read79 Jobs read80 Jobs read81 Jobs read82 Jobs read83 Jobs read84 Jobs read85 Jobs read86 Jobs read87 Jobs read88 Jobs read89 Jobs read90 Jobs read91 Jobs read92 Jobs read93 Jobs read94 Jobs read95 Jobs read96 Jobs read97 Jobs read98 Jobs read99 Jobs read100 Jobs read101 Jobs read102 Jobs read103 Jobs readnumber_of_jobs: 0
+[2024-08-07T00:44:44.495+0100] {logging_mixin.py:188} INFO - number_of_pages: 0
+[2024-08-07T00:44:56.961+0100] {logging_mixin.py:188} INFO - number_of_jobs: 294
+[2024-08-07T00:44:56.961+0100] {logging_mixin.py:188} INFO - number_of_pages: 12
+[2024-08-07T00:44:56.961+0100] {logging_mixin.py:188} INFO - Scraping page: 1
+[2024-08-07T00:44:56.963+0100] {logging_mixin.py:188} INFO - done!
+[2024-08-07T00:44:56.963+0100] {logging_mixin.py:188} INFO - Scraping page: 2
+[2024-08-07T00:47:38.462+0100] {logging_mixin.py:188} INFO - done!
+[2024-08-07T00:47:38.463+0100] {logging_mixin.py:188} INFO - Scraping page: 3
+[2024-08-07T00:52:38.492+0100] {logging_mixin.py:188} INFO - Error links
+[2024-08-07T00:52:38.494+0100] {logging_mixin.py:188} INFO - Scraping page: 4
+[2024-08-07T00:52:51.560+0100] {logging_mixin.py:188} INFO - done!
+[2024-08-07T00:52:51.561+0100] {logging_mixin.py:188} INFO - Scraping page: 5
+[2024-08-07T00:54:32.975+0100] {logging_mixin.py:188} INFO - done!
+[2024-08-07T00:54:32.976+0100] {logging_mixin.py:188} INFO - Scraping page: 6
+[2024-08-07T00:55:48.001+0100] {logging_mixin.py:188} INFO - done!
+[2024-08-07T00:55:48.002+0100] {logging_mixin.py:188} INFO - Scraping page: 7
+[2024-08-07T00:56:03.143+0100] {logging_mixin.py:188} INFO - done!
+[2024-08-07T00:56:03.144+0100] {logging_mixin.py:188} INFO - Scraping page: 8
+[2024-08-07T01:09:34.084+0100] {logging_mixin.py:188} INFO - 1 Jobs read2 Jobs read3 Jobs read4 Jobs read5 Jobs read6 Jobs read7 Jobs read8 Jobs read9 Jobs read10 Jobs read11 Jobs read12 Jobs read13 Jobs read14 Jobs read15 Jobs read16 Jobs read17 Jobs read18 Jobs read19 Jobs read20 Jobs read21 Jobs read22 Jobs read23 Jobs read24 Jobs read25 Jobs read26 Jobs read27 Jobs read28 Jobs read29 Jobs read30 Jobs read31 Jobs read32 Jobs read33 Jobs read34 Jobs read35 Jobs read36 Jobs read37 Jobs read38 Jobs read39 Jobs read40 Jobs read41 Jobs read42 Jobs read43 Jobs read44 Jobs read45 Jobs read46 Jobs read47 Jobs read48 Jobs read49 Jobs read50 Jobs read51 Jobs read52 Jobs read53 Jobs read54 Jobs read55 Jobs read56 Jobs read57 Jobs read58 Jobs read59 Jobs read60 Jobs read61 Jobs read62 Jobs read63 Jobs read64 Jobs read65 Jobs read66 Jobs read67 Jobs read68 Jobs read69 Jobs read70 Jobs read71 Jobs read72 Jobs read73 Jobs read74 Jobs read75 Jobs read76 Jobs read77 Jobs read78 Jobs read79 Jobs read80 Jobs read81 Jobs read82 Jobs read83 Jobs read84 Jobs read85 Jobs read86 Jobs read87 Jobs read88 Jobs read89 Jobs read90 Jobs read91 Jobs read92 Jobs read93 Jobs read94 Jobs read95 Jobs read96 Jobs read97 Jobs read98 Jobs read99 Jobs read100 Jobs read101 Jobs read102 Jobs read103 Jobs read104 Jobs read105 Jobs read106 Jobs read107 Jobs read108 Jobs read109 Jobs read110 Jobs read111 Jobs read112 Jobs read113 Jobs read114 Jobs read115 Jobs read116 Jobs read117 Jobs read118 Jobs read119 Jobs read120 Jobs read121 Jobs readnumber_of_jobs: 0
+[2024-08-07T01:09:34.085+0100] {logging_mixin.py:188} INFO - number_of_pages: 0
+[2024-08-07T01:10:42.493+0100] {logging_mixin.py:188} INFO - number_of_jobs: 288
+[2024-08-07T01:10:42.494+0100] {logging_mixin.py:188} INFO - number_of_pages: 12
+[2024-08-07T01:10:42.494+0100] {logging_mixin.py:188} INFO - Scraping page: 1
+[2024-08-07T01:10:42.497+0100] {logging_mixin.py:188} INFO - done!
+[2024-08-07T01:10:42.497+0100] {logging_mixin.py:188} INFO - Scraping page: 2
+[2024-08-07T01:11:35.852+0100] {logging_mixin.py:188} INFO - done!
+[2024-08-07T01:11:35.853+0100] {logging_mixin.py:188} INFO - Scraping page: 3
+[2024-08-07T01:12:37.626+0100] {logging_mixin.py:188} INFO - done!
+[2024-08-07T01:12:37.627+0100] {logging_mixin.py:188} INFO - Scraping page: 4
+[2024-08-07T01:12:47.398+0100] {logging_mixin.py:188} INFO - done!
+[2024-08-07T01:12:47.399+0100] {logging_mixin.py:188} INFO - Scraping page: 5
+[2024-08-07T01:26:51.738+0100] {logging_mixin.py:188} INFO - 1 Jobs read2 Jobs read3 Jobs read4 Jobs read5 Jobs read6 Jobs read7 Jobs read8 Jobs read9 Jobs read10 Jobs read11 Jobs read12 Jobs read13 Jobs read14 Jobs read15 Jobs read16 Jobs read17 Jobs read18 Jobs read19 Jobs read20 Jobs read21 Jobs read22 Jobs read23 Jobs read24 Jobs read25 Jobs read26 Jobs read27 Jobs read28 Jobs read29 Jobs read30 Jobs read31 Jobs read32 Jobs read33 Jobs read34 Jobs read35 Jobs read36 Jobs read37 Jobs read38 Jobs read39 Jobs read40 Jobs read41 Jobs read42 Jobs read43 Jobs read44 Jobs read45 Jobs read46 Jobs read47 Jobs read48 Jobs read49 Jobs read50 Jobs read51 Jobs read52 Jobs read53 Jobs read54 Jobs read55 Jobs read56 Jobs read57 Jobs read58 Jobs read59 Jobs read60 Jobs read61 Jobs read62 Jobs read63 Jobs read64 Jobs read65 Jobs read66 Jobs read67 Jobs read68 Jobs read69 Jobs read70 Jobs read71 Jobs read72 Jobs read73 Jobs read74 Jobs read75 Jobs read76 Jobs read77 Jobs read78 Jobs read79 Jobs read80 Jobs read81 Jobs read82 Jobs read83 Jobs read84 Jobs read85 Jobs read86 Jobs read87 Jobs read88 Jobs read89 Jobs read90 Jobs read91 Jobs read92 Jobs read93 Jobs read94 Jobs read95 Jobs read96 Jobs read97 Jobs read98 Jobs read99 Jobs read100 Jobs read101 Jobs read102 Jobs read103 Jobs read104 Jobs read105 Jobs read106 Jobs read107 Jobs readnumber_of_jobs: 0
+[2024-08-07T01:26:51.739+0100] {logging_mixin.py:188} INFO - number_of_pages: 0
+[2024-08-07T01:26:51.780+0100] {logging_mixin.py:188} INFO - Done!
+[2024-08-07T01:26:52.850+0100] {python.py:237} INFO - Done. Returned value was: None
+[2024-08-07T01:26:52.851+0100] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-08-07T01:26:52.884+0100] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=jobs_etl, task_id=linkedIn_scraper, run_id=scheduled__2024-08-05T18:00:00+00:00, execution_date=20240805T180000, start_date=20240806T225143, end_date=20240807T002652
+[2024-08-07T01:26:52.962+0100] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-08-07T01:26:53.001+0100] {taskinstance.py:3498} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-08-07T01:26:53.002+0100] {local_task_job_runner.py:222} INFO - ::endgroup::

@@ -1,0 +1,29 @@
+[2024-08-02T19:00:04.609+0100] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-08-02T19:00:04.651+0100] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: jobs_etl.jungle_scraper scheduled__2024-08-01T18:00:00+00:00 [queued]>
+[2024-08-02T19:00:04.658+0100] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: jobs_etl.jungle_scraper scheduled__2024-08-01T18:00:00+00:00 [queued]>
+[2024-08-02T19:00:04.659+0100] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2024-08-02T19:00:04.670+0100] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): jungle_scraper> on 2024-08-01 18:00:00+00:00
+[2024-08-02T19:00:04.677+0100] {standard_task_runner.py:63} INFO - Started process 378346 to run task
+[2024-08-02T19:00:04.682+0100] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'jobs_etl', 'jungle_scraper', 'scheduled__2024-08-01T18:00:00+00:00', '--job-id', '271', '--raw', '--subdir', 'DAGS_FOLDER/jobs_etl.py', '--cfg-path', '/tmp/tmpdcxsdbcz']
+[2024-08-02T19:00:04.684+0100] {standard_task_runner.py:91} INFO - Job 271: Subtask jungle_scraper
+[2024-08-02T19:00:04.753+0100] {task_command.py:426} INFO - Running <TaskInstance: jobs_etl.jungle_scraper scheduled__2024-08-01T18:00:00+00:00 [running]> on host huser
+[2024-08-02T19:00:04.859+0100] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='hassounibarka@gmail.com' AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='jobs_etl' AIRFLOW_CTX_TASK_ID='jungle_scraper' AIRFLOW_CTX_EXECUTION_DATE='2024-08-01T18:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-08-01T18:00:00+00:00'
+[2024-08-02T19:00:04.860+0100] {taskinstance.py:430} INFO - ::endgroup::
+[2024-08-02T19:00:18.670+0100] {logging_mixin.py:188} INFO - 8 Jobs for data Scientist
+[2024-08-02T19:00:18.670+0100] {logging_mixin.py:188} INFO - data Scientist Job extraction ...
+[2024-08-02T19:01:05.325+0100] {logging_mixin.py:188} INFO - 0 Jobs read1 Jobs read2 Jobs read3 Jobs read4 Jobs read5 Jobs read6 Jobs read7 Jobs read22 Jobs for data analyst
+[2024-08-02T19:01:05.326+0100] {logging_mixin.py:188} INFO - data analyst Job extraction ...
+[2024-08-02T19:02:57.337+0100] {logging_mixin.py:188} INFO - 0 Jobs read1 Jobs read2 Jobs read3 Jobs read4 Jobs read5 Jobs read6 Jobs read7 Jobs read8 Jobs read9 Jobs read10 Jobs read11 Jobs read12 Jobs read13 Jobs read14 Jobs read15 Jobs read16 Jobs read17 Jobs read18 Jobs read19 Jobs read20 Jobs read21 Jobs read60 Jobs for data engineer
+[2024-08-02T19:02:57.339+0100] {logging_mixin.py:188} INFO - data engineer Job extraction ...
+[2024-08-02T19:07:17.654+0100] {logging_mixin.py:188} INFO - 0 Jobs read1 Jobs read2 Jobs read3 Jobs read4 Jobs read5 Jobs read6 Jobs read7 Jobs read8 Jobs read9 Jobs read10 Jobs read11 Jobs read12 Jobs read13 Jobs read14 Jobs read15 Jobs read16 Jobs read17 Jobs read18 Jobs read19 Jobs read20 Jobs read21 Jobs read22 Jobs read23 Jobs read24 Jobs read25 Jobs read26 Jobs read27 Jobs read28 Jobs read29 Jobs read30 Jobs read31 Jobs read32 Jobs read33 Jobs read34 Jobs read35 Jobs read36 Jobs read37 Jobs read38 Jobs read39 Jobs read40 Jobs read41 Jobs read42 Jobs read43 Jobs read44 Jobs read45 Jobs read46 Jobs read47 Jobs read48 Jobs read49 Jobs read50 Jobs read51 Jobs read52 Jobs read53 Jobs read54 Jobs read55 Jobs read56 Jobs read57 Jobs read58 Jobs read59 Jobs read60 Jobs for web developer
+[2024-08-02T19:07:17.657+0100] {logging_mixin.py:188} INFO - web developer Job extraction ...
+[2024-08-02T19:11:34.700+0100] {logging_mixin.py:188} INFO - 0 Jobs read1 Jobs read2 Jobs read3 Jobs read4 Jobs read5 Jobs read6 Jobs read7 Jobs read8 Jobs read9 Jobs read10 Jobs read11 Jobs read12 Jobs read13 Jobs read14 Jobs read15 Jobs read16 Jobs read17 Jobs read18 Jobs read19 Jobs read20 Jobs read21 Jobs read22 Jobs read23 Jobs read24 Jobs read25 Jobs read26 Jobs read27 Jobs read28 Jobs read29 Jobs read30 Jobs read31 Jobs read32 Jobs read33 Jobs read34 Jobs read35 Jobs read36 Jobs read37 Jobs read38 Jobs read39 Jobs read40 Jobs read41 Jobs read42 Jobs read43 Jobs read44 Jobs read45 Jobs read46 Jobs read47 Jobs read48 Jobs read49 Jobs read50 Jobs read51 Jobs read52 Jobs read53 Jobs read54 Jobs read55 Jobs read56 Jobs read57 Jobs read58 Jobs read59 Jobs read5 Jobs for mobile developer
+[2024-08-02T19:11:34.701+0100] {logging_mixin.py:188} INFO - mobile developer Job extraction ...
+[2024-08-02T19:11:56.008+0100] {logging_mixin.py:188} INFO - 0 Jobs read1 Jobs read2 Jobs read3 Jobs read4 Jobs readDone
+[2024-08-02T19:11:56.024+0100] {logging_mixin.py:188} INFO - Done!
+[2024-08-02T19:11:56.025+0100] {python.py:237} INFO - Done. Returned value was: None
+[2024-08-02T19:11:56.025+0100] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-08-02T19:11:56.050+0100] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=jobs_etl, task_id=jungle_scraper, run_id=scheduled__2024-08-01T18:00:00+00:00, execution_date=20240801T180000, start_date=20240802T180004, end_date=20240802T181156
+[2024-08-02T19:11:56.093+0100] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-08-02T19:11:56.125+0100] {taskinstance.py:3498} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-08-02T19:11:56.127+0100] {local_task_job_runner.py:222} INFO - ::endgroup::

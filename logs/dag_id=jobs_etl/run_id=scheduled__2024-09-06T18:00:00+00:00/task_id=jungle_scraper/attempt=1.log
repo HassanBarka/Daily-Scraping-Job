@@ -1,0 +1,94 @@
+[2024-09-08T16:30:51.054+0100] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-09-08T16:30:51.136+0100] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: jobs_etl.jungle_scraper scheduled__2024-09-06T18:00:00+00:00 [queued]>
+[2024-09-08T16:30:51.161+0100] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: jobs_etl.jungle_scraper scheduled__2024-09-06T18:00:00+00:00 [queued]>
+[2024-09-08T16:30:51.162+0100] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2024-09-08T16:30:51.199+0100] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): jungle_scraper> on 2024-09-06 18:00:00+00:00
+[2024-09-08T16:30:51.225+0100] {standard_task_runner.py:63} INFO - Started process 179159 to run task
+[2024-09-08T16:30:51.247+0100] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'jobs_etl', 'jungle_scraper', 'scheduled__2024-09-06T18:00:00+00:00', '--job-id', '420', '--raw', '--subdir', 'DAGS_FOLDER/jobs_etl.py', '--cfg-path', '/tmp/tmpi4l4uwap']
+[2024-09-08T16:30:51.255+0100] {standard_task_runner.py:91} INFO - Job 420: Subtask jungle_scraper
+[2024-09-08T16:30:51.495+0100] {task_command.py:426} INFO - Running <TaskInstance: jobs_etl.jungle_scraper scheduled__2024-09-06T18:00:00+00:00 [running]> on host huser
+[2024-09-08T16:30:51.675+0100] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='hassounibarka@gmail.com' AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='jobs_etl' AIRFLOW_CTX_TASK_ID='jungle_scraper' AIRFLOW_CTX_EXECUTION_DATE='2024-09-06T18:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-09-06T18:00:00+00:00'
+[2024-09-08T16:30:51.676+0100] {taskinstance.py:430} INFO - ::endgroup::
+[2024-09-08T16:30:59.265+0100] {logging_mixin.py:188} WARNING - Exception in thread Thread-4 (_handle_event_loop):
+[2024-09-08T16:30:59.267+0100] {logging_mixin.py:188} WARNING - Traceback (most recent call last):
+[2024-09-08T16:30:59.268+0100] {logging_mixin.py:188} WARNING -   File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+[2024-09-08T16:30:59.269+0100] {logging_mixin.py:188} WARNING -     self.run()
+[2024-09-08T16:30:59.269+0100] {logging_mixin.py:188} WARNING -   File "/usr/lib/python3.10/threading.py", line 953, in run
+[2024-09-08T16:30:59.270+0100] {logging_mixin.py:188} WARNING -     self._target(*self._args, **self._kwargs)
+[2024-09-08T16:30:59.270+0100] {logging_mixin.py:188} WARNING -   File "/home/huser/airflow_workspace/airflow_env/lib/python3.10/site-packages/DrissionPage/_base/driver.py", line 156, in _handle_event_loop
+[2024-09-08T16:30:59.272+0100] {logging_mixin.py:188} WARNING -     function(**event['params'])
+[2024-09-08T16:30:59.273+0100] {logging_mixin.py:188} WARNING -   File "/home/huser/airflow_workspace/airflow_env/lib/python3.10/site-packages/DrissionPage/_pages/chromium_base.py", line 221, in _onDomContentEventFired
+[2024-09-08T16:30:59.276+0100] {logging_mixin.py:188} WARNING -     if self._get_document(self._load_end_time - perf_counter() - .1):
+[2024-09-08T16:30:59.276+0100] {logging_mixin.py:188} WARNING -   File "/home/huser/airflow_workspace/airflow_env/lib/python3.10/site-packages/DrissionPage/_pages/chromium_base.py", line 183, in _get_document
+[2024-09-08T16:30:59.277+0100] {logging_mixin.py:188} WARNING -     r = self.run_cdp('Page.getFrameTree')
+[2024-09-08T16:30:59.277+0100] {logging_mixin.py:188} WARNING -   File "/home/huser/airflow_workspace/airflow_env/lib/python3.10/site-packages/DrissionPage/_pages/chromium_base.py", line 424, in run_cdp
+[2024-09-08T16:30:59.278+0100] {logging_mixin.py:188} WARNING -     return r if __ERROR__ not in r else raise_error(r, ignore)
+[2024-09-08T16:30:59.278+0100] {logging_mixin.py:188} WARNING -   File "/home/huser/airflow_workspace/airflow_env/lib/python3.10/site-packages/DrissionPage/_functions/tools.py", line 241, in raise_error
+[2024-09-08T16:30:59.279+0100] {logging_mixin.py:188} WARNING -     raise r
+[2024-09-08T16:30:59.280+0100] {logging_mixin.py:188} WARNING - DrissionPage.errors.PageDisconnectedError: 与页面的连接已断开。
+[2024-09-08T16:31:30.169+0100] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-09-08T16:31:30.170+0100] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/huser/airflow_workspace/airflow_env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/huser/airflow_workspace/airflow_env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/huser/airflow_workspace/airflow_env/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/huser/airflow_workspace/airflow_env/lib/python3.10/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+  File "/home/huser/airflow_workspace/airflow_env/lib/python3.10/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/huser/airflow_workspace/airflow/dags/jobs_etl.py", line 23, in get_jungle_data
+    df = jungle_scraper.get_datas(Keywords)
+  File "/home/huser/airflow_workspace/airflow/dags/Jobs/JungleScraper.py", line 132, in get_datas
+    df = get_data(key)
+  File "/home/huser/airflow_workspace/airflow/dags/Jobs/JungleScraper.py", line 57, in get_data
+    links,driver = get_links(keyword)
+  File "/home/huser/airflow_workspace/airflow/dags/Jobs/JungleScraper.py", line 21, in get_links
+    driver = connect(keyword)
+  File "/home/huser/airflow_workspace/airflow/dags/Jobs/JungleScraper.py", line 16, in connect
+    driver.get(f'https://www.welcometothejungle.com/fr/jobs?&query={keyword}&sortBy=mostRecent')
+  File "/home/huser/airflow_workspace/airflow_env/lib/python3.10/site-packages/DrissionPage/_pages/chromium_base.py", line 475, in get
+    self._url_available = self._d_connect(self._url, times=retry, interval=interval,
+  File "/home/huser/airflow_workspace/airflow_env/lib/python3.10/site-packages/DrissionPage/_pages/chromium_base.py", line 990, in _d_connect
+    result = self.run_cdp('Page.navigate', frameId=self._frame_id, url=to_url, _timeout=timeout)
+  File "/home/huser/airflow_workspace/airflow_env/lib/python3.10/site-packages/DrissionPage/_pages/chromium_base.py", line 424, in run_cdp
+    return r if __ERROR__ not in r else raise_error(r, ignore)
+  File "/home/huser/airflow_workspace/airflow_env/lib/python3.10/site-packages/DrissionPage/_functions/tools.py", line 241, in raise_error
+    raise r
+DrissionPage.errors.PageDisconnectedError: 与页面的连接已断开。
+[2024-09-08T16:31:30.211+0100] {taskinstance.py:1206} INFO - Marking task as FAILED. dag_id=jobs_etl, task_id=jungle_scraper, run_id=scheduled__2024-09-06T18:00:00+00:00, execution_date=20240906T180000, start_date=20240908T153051, end_date=20240908T153130
+[2024-09-08T16:31:30.229+0100] {standard_task_runner.py:110} ERROR - Failed to execute job 420 for task jungle_scraper (与页面的连接已断开。; 179159)
+[2024-09-08T16:31:30.286+0100] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2024-09-08T16:31:30.325+0100] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-09-08T16:31:30.330+0100] {local_task_job_runner.py:222} INFO - ::endgroup::
+[2024-09-08T16:35:42.503+0100] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-09-08T16:35:42.548+0100] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: jobs_etl.jungle_scraper scheduled__2024-09-06T18:00:00+00:00 [queued]>
+[2024-09-08T16:35:42.558+0100] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: jobs_etl.jungle_scraper scheduled__2024-09-06T18:00:00+00:00 [queued]>
+[2024-09-08T16:35:42.559+0100] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2024-09-08T16:35:42.573+0100] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): jungle_scraper> on 2024-09-06 18:00:00+00:00
+[2024-09-08T16:35:42.587+0100] {standard_task_runner.py:63} INFO - Started process 179733 to run task
+[2024-09-08T16:35:42.593+0100] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'jobs_etl', 'jungle_scraper', 'scheduled__2024-09-06T18:00:00+00:00', '--job-id', '421', '--raw', '--subdir', 'DAGS_FOLDER/jobs_etl.py', '--cfg-path', '/tmp/tmpax947ztt']
+[2024-09-08T16:35:42.596+0100] {standard_task_runner.py:91} INFO - Job 421: Subtask jungle_scraper
+[2024-09-08T16:35:42.707+0100] {task_command.py:426} INFO - Running <TaskInstance: jobs_etl.jungle_scraper scheduled__2024-09-06T18:00:00+00:00 [running]> on host huser
+[2024-09-08T16:35:42.857+0100] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='hassounibarka@gmail.com' AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='jobs_etl' AIRFLOW_CTX_TASK_ID='jungle_scraper' AIRFLOW_CTX_EXECUTION_DATE='2024-09-06T18:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-09-06T18:00:00+00:00'
+[2024-09-08T16:35:42.858+0100] {taskinstance.py:430} INFO - ::endgroup::
+[2024-09-08T16:36:00.842+0100] {logging_mixin.py:188} INFO - 5 Jobs for data Scientist
+[2024-09-08T16:36:00.842+0100] {logging_mixin.py:188} INFO - data Scientist Job extraction ...
+[2024-09-08T16:37:16.749+0100] {logging_mixin.py:188} INFO - 0 Jobs read1 Jobs read2 Jobs read3 Jobs read4 Jobs read2 Jobs for data analyst
+[2024-09-08T16:37:16.749+0100] {logging_mixin.py:188} INFO - data analyst Job extraction ...
+[2024-09-08T16:37:57.784+0100] {logging_mixin.py:188} INFO - 0 Jobs read1 Jobs read3 Jobs for data engineer
+[2024-09-08T16:37:57.785+0100] {logging_mixin.py:188} INFO - data engineer Job extraction ...
+[2024-09-08T16:38:50.669+0100] {logging_mixin.py:188} INFO - 0 Jobs read1 Jobs read2 Jobs read14 Jobs for web developer
+[2024-09-08T16:38:50.669+0100] {logging_mixin.py:188} INFO - web developer Job extraction ...
+[2024-09-08T16:41:56.608+0100] {logging_mixin.py:188} INFO - 0 Jobs read1 Jobs read2 Jobs read3 Jobs read4 Jobs read5 Jobs read6 Jobs read7 Jobs read8 Jobs read9 Jobs read10 Jobs read11 Jobs read12 Jobs read13 Jobs read2 Jobs for mobile developer
+[2024-09-08T16:41:56.608+0100] {logging_mixin.py:188} INFO - mobile developer Job extraction ...
+[2024-09-08T16:42:19.878+0100] {logging_mixin.py:188} INFO - 0 Jobs read1 Jobs readDone
+[2024-09-08T16:42:19.886+0100] {logging_mixin.py:188} INFO - Done!
+[2024-09-08T16:42:19.886+0100] {python.py:237} INFO - Done. Returned value was: None
+[2024-09-08T16:42:19.887+0100] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-09-08T16:42:19.909+0100] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=jobs_etl, task_id=jungle_scraper, run_id=scheduled__2024-09-06T18:00:00+00:00, execution_date=20240906T180000, start_date=20240908T153542, end_date=20240908T154219
+[2024-09-08T16:42:19.952+0100] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-09-08T16:42:19.995+0100] {taskinstance.py:3498} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-09-08T16:42:19.996+0100] {local_task_job_runner.py:222} INFO - ::endgroup::

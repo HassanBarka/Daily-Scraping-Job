@@ -1,0 +1,650 @@
+[2024-07-17T03:39:13.783+0100] {processor.py:161} INFO - Started process (PID=183581) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T03:39:13.784+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-17T03:39:13.787+0100] {logging_mixin.py:188} INFO - [2024-07-17T03:39:13.786+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T03:39:14.877+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T03:39:14.895+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.124 seconds
+[2024-07-17T03:39:45.483+0100] {processor.py:161} INFO - Started process (PID=183616) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T03:39:45.484+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-17T03:39:45.486+0100] {logging_mixin.py:188} INFO - [2024-07-17T03:39:45.486+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T03:39:46.522+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T03:39:46.549+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.078 seconds
+[2024-07-17T23:43:14.198+0100] {processor.py:161} INFO - Started process (PID=7325) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:43:14.204+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-17T23:43:14.212+0100] {logging_mixin.py:188} INFO - [2024-07-17T23:43:14.211+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:43:16.972+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:43:17.005+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 2.844 seconds
+[2024-07-17T23:43:47.445+0100] {processor.py:161} INFO - Started process (PID=7391) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:43:47.446+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-17T23:43:47.448+0100] {logging_mixin.py:188} INFO - [2024-07-17T23:43:47.448+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:43:48.580+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:43:48.610+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.174 seconds
+[2024-07-17T23:44:18.715+0100] {processor.py:161} INFO - Started process (PID=7442) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:44:18.716+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-17T23:44:18.718+0100] {logging_mixin.py:188} INFO - [2024-07-17T23:44:18.718+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:44:19.885+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:44:19.909+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.202 seconds
+[2024-07-17T23:44:50.191+0100] {processor.py:161} INFO - Started process (PID=7477) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:44:50.192+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-17T23:44:50.194+0100] {logging_mixin.py:188} INFO - [2024-07-17T23:44:50.194+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:44:51.223+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:44:51.245+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.061 seconds
+[2024-07-17T23:45:21.819+0100] {processor.py:161} INFO - Started process (PID=7528) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:45:21.821+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-17T23:45:21.825+0100] {logging_mixin.py:188} INFO - [2024-07-17T23:45:21.824+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:45:22.724+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:45:22.743+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 0.941 seconds
+[2024-07-17T23:45:52.958+0100] {processor.py:161} INFO - Started process (PID=7562) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:45:52.959+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-17T23:45:52.961+0100] {logging_mixin.py:188} INFO - [2024-07-17T23:45:52.961+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:45:53.951+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:45:53.972+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.023 seconds
+[2024-07-17T23:46:24.476+0100] {processor.py:161} INFO - Started process (PID=7600) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:46:24.477+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-17T23:46:24.479+0100] {logging_mixin.py:188} INFO - [2024-07-17T23:46:24.479+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:46:25.366+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:46:25.385+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 0.916 seconds
+[2024-07-17T23:46:55.934+0100] {processor.py:161} INFO - Started process (PID=7631) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:46:55.935+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-17T23:46:55.938+0100] {logging_mixin.py:188} INFO - [2024-07-17T23:46:55.937+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:46:56.935+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:46:56.954+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.033 seconds
+[2024-07-17T23:47:27.409+0100] {processor.py:161} INFO - Started process (PID=7673) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:47:27.410+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-17T23:47:27.412+0100] {logging_mixin.py:188} INFO - [2024-07-17T23:47:27.412+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:47:28.566+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:47:28.590+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.192 seconds
+[2024-07-17T23:47:59.297+0100] {processor.py:161} INFO - Started process (PID=7707) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:47:59.305+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-17T23:47:59.311+0100] {logging_mixin.py:188} INFO - [2024-07-17T23:47:59.309+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:48:00.689+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:48:00.717+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.439 seconds
+[2024-07-17T23:48:30.846+0100] {processor.py:161} INFO - Started process (PID=7756) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:48:30.848+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-17T23:48:30.852+0100] {logging_mixin.py:188} INFO - [2024-07-17T23:48:30.851+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:48:32.076+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:48:32.100+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.267 seconds
+[2024-07-17T23:49:02.971+0100] {processor.py:161} INFO - Started process (PID=7787) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:49:02.973+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-17T23:49:02.977+0100] {logging_mixin.py:188} INFO - [2024-07-17T23:49:02.976+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:49:04.031+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:49:04.062+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.102 seconds
+[2024-07-17T23:49:34.288+0100] {processor.py:161} INFO - Started process (PID=7826) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:49:34.290+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-17T23:49:34.293+0100] {logging_mixin.py:188} INFO - [2024-07-17T23:49:34.293+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:49:35.345+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:49:35.366+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.090 seconds
+[2024-07-17T23:50:05.601+0100] {processor.py:161} INFO - Started process (PID=7859) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:50:05.602+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-17T23:50:05.606+0100] {logging_mixin.py:188} INFO - [2024-07-17T23:50:05.605+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:50:06.773+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:50:06.796+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.203 seconds
+[2024-07-17T23:50:37.335+0100] {processor.py:161} INFO - Started process (PID=7896) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:50:37.336+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-17T23:50:37.338+0100] {logging_mixin.py:188} INFO - [2024-07-17T23:50:37.338+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:50:38.458+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:50:38.479+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.156 seconds
+[2024-07-17T23:51:08.558+0100] {processor.py:161} INFO - Started process (PID=7929) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:51:08.560+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-17T23:51:08.563+0100] {logging_mixin.py:188} INFO - [2024-07-17T23:51:08.562+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:51:09.748+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:51:09.770+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.220 seconds
+[2024-07-17T23:51:40.345+0100] {processor.py:161} INFO - Started process (PID=7966) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:51:40.349+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-17T23:51:40.352+0100] {logging_mixin.py:188} INFO - [2024-07-17T23:51:40.351+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:51:42.526+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:51:42.563+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 2.230 seconds
+[2024-07-17T23:52:13.276+0100] {processor.py:161} INFO - Started process (PID=8000) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:52:13.278+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-17T23:52:13.279+0100] {logging_mixin.py:188} INFO - [2024-07-17T23:52:13.279+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:52:14.471+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:52:14.495+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.226 seconds
+[2024-07-17T23:52:44.625+0100] {processor.py:161} INFO - Started process (PID=8037) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:52:44.627+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-17T23:52:44.629+0100] {logging_mixin.py:188} INFO - [2024-07-17T23:52:44.629+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:52:45.733+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:52:45.755+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.142 seconds
+[2024-07-17T23:53:16.394+0100] {processor.py:161} INFO - Started process (PID=8075) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:53:16.396+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-17T23:53:16.398+0100] {logging_mixin.py:188} INFO - [2024-07-17T23:53:16.398+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:53:17.602+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:53:17.627+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.240 seconds
+[2024-07-17T23:53:48.163+0100] {processor.py:161} INFO - Started process (PID=8111) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:53:48.165+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-17T23:53:48.167+0100] {logging_mixin.py:188} INFO - [2024-07-17T23:53:48.166+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:53:49.673+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:53:49.702+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.551 seconds
+[2024-07-17T23:54:19.743+0100] {processor.py:161} INFO - Started process (PID=8146) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:54:19.746+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-17T23:54:19.749+0100] {logging_mixin.py:188} INFO - [2024-07-17T23:54:19.749+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:54:20.868+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:54:20.892+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.158 seconds
+[2024-07-17T23:54:51.477+0100] {processor.py:161} INFO - Started process (PID=8180) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:54:51.478+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-17T23:54:51.480+0100] {logging_mixin.py:188} INFO - [2024-07-17T23:54:51.479+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:54:52.533+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:54:52.556+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.087 seconds
+[2024-07-17T23:55:22.717+0100] {processor.py:161} INFO - Started process (PID=8222) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:55:22.724+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-17T23:55:22.728+0100] {logging_mixin.py:188} INFO - [2024-07-17T23:55:22.727+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:55:24.242+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:55:24.269+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.566 seconds
+[2024-07-17T23:55:54.615+0100] {processor.py:161} INFO - Started process (PID=8255) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:55:54.616+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-17T23:55:54.618+0100] {logging_mixin.py:188} INFO - [2024-07-17T23:55:54.617+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:55:55.748+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:55:55.779+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.172 seconds
+[2024-07-17T23:56:26.299+0100] {processor.py:161} INFO - Started process (PID=8294) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:56:26.301+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-17T23:56:26.303+0100] {logging_mixin.py:188} INFO - [2024-07-17T23:56:26.303+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:56:27.461+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:56:27.497+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.206 seconds
+[2024-07-17T23:56:57.690+0100] {processor.py:161} INFO - Started process (PID=8325) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:56:57.693+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-17T23:56:57.696+0100] {logging_mixin.py:188} INFO - [2024-07-17T23:56:57.695+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:56:59.317+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:56:59.344+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.662 seconds
+[2024-07-17T23:57:29.959+0100] {processor.py:161} INFO - Started process (PID=8364) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:57:29.961+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-17T23:57:29.963+0100] {logging_mixin.py:188} INFO - [2024-07-17T23:57:29.962+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:57:31.340+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:57:31.363+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.416 seconds
+[2024-07-17T23:58:01.588+0100] {processor.py:161} INFO - Started process (PID=8394) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:58:01.590+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-17T23:58:01.593+0100] {logging_mixin.py:188} INFO - [2024-07-17T23:58:01.592+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:58:02.838+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:58:02.863+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.284 seconds
+[2024-07-17T23:58:33.094+0100] {processor.py:161} INFO - Started process (PID=8433) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:58:33.096+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-17T23:58:33.099+0100] {logging_mixin.py:188} INFO - [2024-07-17T23:58:33.098+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:58:34.448+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:58:34.473+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.389 seconds
+[2024-07-17T23:59:04.689+0100] {processor.py:161} INFO - Started process (PID=8459) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:59:04.691+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-17T23:59:04.695+0100] {logging_mixin.py:188} INFO - [2024-07-17T23:59:04.694+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:59:05.933+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:59:05.959+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.281 seconds
+[2024-07-17T23:59:36.015+0100] {processor.py:161} INFO - Started process (PID=8497) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:59:36.017+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-17T23:59:36.022+0100] {logging_mixin.py:188} INFO - [2024-07-17T23:59:36.021+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:59:37.476+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-17T23:59:37.502+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.497 seconds
+[2024-07-18T00:00:07.705+0100] {processor.py:161} INFO - Started process (PID=8728) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:00:07.707+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:00:07.710+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:00:07.709+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:00:09.184+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:00:09.224+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.528 seconds
+[2024-07-18T00:00:39.886+0100] {processor.py:161} INFO - Started process (PID=8770) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:00:39.892+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:00:39.897+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:00:39.896+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:00:41.398+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:00:41.423+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.548 seconds
+[2024-07-18T00:01:11.918+0100] {processor.py:161} INFO - Started process (PID=8804) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:01:11.920+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:01:11.926+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:01:11.925+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:01:13.258+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:01:13.292+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.389 seconds
+[2024-07-18T00:01:43.514+0100] {processor.py:161} INFO - Started process (PID=8842) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:01:43.515+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:01:43.517+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:01:43.517+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:01:44.892+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:01:44.920+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.415 seconds
+[2024-07-18T00:02:15.201+0100] {processor.py:161} INFO - Started process (PID=8875) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:02:15.205+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:02:15.208+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:02:15.208+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:02:16.651+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:02:16.678+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.491 seconds
+[2024-07-18T00:02:46.830+0100] {processor.py:161} INFO - Started process (PID=8912) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:02:46.832+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:02:46.834+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:02:46.833+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:02:48.228+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:02:48.254+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.438 seconds
+[2024-07-18T00:03:18.481+0100] {processor.py:161} INFO - Started process (PID=8947) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:03:18.482+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:03:18.484+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:03:18.484+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:03:20.050+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:03:20.075+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.611 seconds
+[2024-07-18T00:03:50.466+0100] {processor.py:161} INFO - Started process (PID=8982) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:03:50.468+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:03:50.471+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:03:50.470+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:03:52.058+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:03:52.090+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.632 seconds
+[2024-07-18T00:04:22.772+0100] {processor.py:161} INFO - Started process (PID=9020) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:04:22.773+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:04:22.775+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:04:22.775+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:04:24.048+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:04:24.072+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.308 seconds
+[2024-07-18T00:04:54.917+0100] {processor.py:161} INFO - Started process (PID=9053) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:04:54.919+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:04:54.921+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:04:54.921+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:04:56.347+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:04:56.376+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.474 seconds
+[2024-07-18T00:05:26.697+0100] {processor.py:161} INFO - Started process (PID=9096) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:05:26.699+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:05:26.703+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:05:26.702+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:05:28.088+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:05:28.113+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.425 seconds
+[2024-07-18T00:05:59.030+0100] {processor.py:161} INFO - Started process (PID=9137) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:05:59.032+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:05:59.034+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:05:59.034+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:06:00.364+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:06:00.391+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.373 seconds
+[2024-07-18T00:06:31.055+0100] {processor.py:161} INFO - Started process (PID=9176) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:06:31.056+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:06:31.058+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:06:31.058+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:06:32.236+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:06:32.261+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.217 seconds
+[2024-07-18T00:07:02.984+0100] {processor.py:161} INFO - Started process (PID=9207) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:07:02.985+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:07:02.987+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:07:02.987+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:07:04.183+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:07:04.212+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.237 seconds
+[2024-07-18T00:07:34.440+0100] {processor.py:161} INFO - Started process (PID=9246) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:07:34.443+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:07:34.445+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:07:34.445+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:07:35.540+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:07:35.570+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.138 seconds
+[2024-07-18T00:08:05.693+0100] {processor.py:161} INFO - Started process (PID=9277) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:08:05.695+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:08:05.696+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:08:05.696+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:08:06.821+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:08:06.843+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.163 seconds
+[2024-07-18T00:08:37.190+0100] {processor.py:161} INFO - Started process (PID=9316) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:08:37.192+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:08:37.195+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:08:37.195+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:08:38.444+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:08:38.473+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.295 seconds
+[2024-07-18T00:09:08.709+0100] {processor.py:161} INFO - Started process (PID=9347) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:09:08.711+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:09:08.714+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:09:08.714+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:09:10.254+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:09:10.279+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.591 seconds
+[2024-07-18T00:09:40.495+0100] {processor.py:161} INFO - Started process (PID=9386) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:09:40.496+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:09:40.498+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:09:40.498+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:09:41.886+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:09:41.918+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.435 seconds
+[2024-07-18T00:10:12.144+0100] {processor.py:161} INFO - Started process (PID=9419) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:10:12.146+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:10:12.150+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:10:12.149+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:10:13.561+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:10:13.586+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.452 seconds
+[2024-07-18T00:10:43.672+0100] {processor.py:161} INFO - Started process (PID=9456) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:10:43.674+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:10:43.678+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:10:43.678+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:10:45.088+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:10:45.115+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.456 seconds
+[2024-07-18T00:11:15.203+0100] {processor.py:161} INFO - Started process (PID=9490) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:11:15.205+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:11:15.208+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:11:15.207+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:11:16.472+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:11:16.496+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.303 seconds
+[2024-07-18T00:11:47.175+0100] {processor.py:161} INFO - Started process (PID=9543) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:11:47.176+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:11:47.178+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:11:47.178+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:11:48.089+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:11:48.108+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 0.941 seconds
+[2024-07-18T00:12:18.420+0100] {processor.py:161} INFO - Started process (PID=9582) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:12:18.422+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:12:18.424+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:12:18.423+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:12:19.578+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:12:19.601+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.191 seconds
+[2024-07-18T00:12:50.048+0100] {processor.py:161} INFO - Started process (PID=9617) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:12:50.049+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:12:50.051+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:12:50.051+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:12:51.125+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:12:51.147+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.106 seconds
+[2024-07-18T00:13:21.274+0100] {processor.py:161} INFO - Started process (PID=9664) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:13:21.275+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:13:21.277+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:13:21.277+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:13:22.311+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:13:22.330+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.063 seconds
+[2024-07-18T00:13:52.629+0100] {processor.py:161} INFO - Started process (PID=9697) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:13:52.630+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:13:52.632+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:13:52.632+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:13:53.783+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:13:53.803+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.182 seconds
+[2024-07-18T00:14:24.448+0100] {processor.py:161} INFO - Started process (PID=9736) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:14:24.449+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:14:24.451+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:14:24.450+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:14:25.426+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:14:25.446+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.006 seconds
+[2024-07-18T00:14:55.949+0100] {processor.py:161} INFO - Started process (PID=9771) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:14:55.950+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:14:55.952+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:14:55.952+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:14:57.085+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:14:57.107+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.167 seconds
+[2024-07-18T00:15:27.345+0100] {processor.py:161} INFO - Started process (PID=9841) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:15:27.347+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:15:27.354+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:15:27.353+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:15:28.936+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:15:28.977+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.645 seconds
+[2024-07-18T00:15:59.314+0100] {processor.py:161} INFO - Started process (PID=9872) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:15:59.315+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:15:59.319+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:15:59.318+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:16:00.727+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:16:00.761+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.455 seconds
+[2024-07-18T00:16:31.282+0100] {processor.py:161} INFO - Started process (PID=9912) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:16:31.283+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:16:31.285+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:16:31.285+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:16:33.028+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:16:33.063+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.790 seconds
+[2024-07-18T00:17:03.207+0100] {processor.py:161} INFO - Started process (PID=9946) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:17:03.209+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:17:03.210+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:17:03.210+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:17:04.582+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:17:04.613+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.414 seconds
+[2024-07-18T00:17:35.574+0100] {processor.py:161} INFO - Started process (PID=9985) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:17:35.576+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:17:35.579+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:17:35.578+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:17:36.933+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:17:36.956+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.394 seconds
+[2024-07-18T00:18:07.189+0100] {processor.py:161} INFO - Started process (PID=10016) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:18:07.190+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:18:07.193+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:18:07.192+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:18:09.147+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:18:09.178+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 2.002 seconds
+[2024-07-18T00:18:39.331+0100] {processor.py:161} INFO - Started process (PID=10055) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:18:39.333+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:18:39.340+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:18:39.335+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:18:40.836+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:18:40.866+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.546 seconds
+[2024-07-18T00:19:11.526+0100] {processor.py:161} INFO - Started process (PID=10086) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:19:11.529+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:19:11.531+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:19:11.531+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:19:13.096+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:19:13.122+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.609 seconds
+[2024-07-18T00:19:43.304+0100] {processor.py:161} INFO - Started process (PID=10125) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:19:43.306+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:19:43.310+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:19:43.310+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:19:44.595+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:19:44.617+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.326 seconds
+[2024-07-18T00:20:14.796+0100] {processor.py:161} INFO - Started process (PID=10162) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:20:14.798+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:20:14.801+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:20:14.800+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:20:16.465+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:20:16.507+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.722 seconds
+[2024-07-18T00:20:47.086+0100] {processor.py:161} INFO - Started process (PID=10200) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:20:47.088+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:20:47.092+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:20:47.091+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:20:48.391+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:20:48.428+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.352 seconds
+[2024-07-18T00:21:18.600+0100] {processor.py:161} INFO - Started process (PID=10235) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:21:18.602+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:21:18.605+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:21:18.604+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:21:20.074+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:21:20.104+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.513 seconds
+[2024-07-18T00:21:50.747+0100] {processor.py:161} INFO - Started process (PID=10271) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:21:50.749+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:21:50.751+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:21:50.751+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:21:52.148+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:21:52.181+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.446 seconds
+[2024-07-18T00:22:22.394+0100] {processor.py:161} INFO - Started process (PID=10309) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:22:22.396+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:22:22.397+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:22:22.397+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:22:23.904+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:22:23.933+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.550 seconds
+[2024-07-18T00:22:54.425+0100] {processor.py:161} INFO - Started process (PID=10348) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:22:54.427+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:22:54.430+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:22:54.430+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:22:55.654+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:22:55.676+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.262 seconds
+[2024-07-18T00:23:26.105+0100] {processor.py:161} INFO - Started process (PID=10397) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:23:26.107+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:23:26.110+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:23:26.109+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:23:27.473+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:23:27.502+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.409 seconds
+[2024-07-18T00:23:57.918+0100] {processor.py:161} INFO - Started process (PID=10429) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:23:57.919+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:23:57.921+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:23:57.921+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:23:59.647+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:23:59.675+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.765 seconds
+[2024-07-18T00:24:30.023+0100] {processor.py:161} INFO - Started process (PID=10478) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:24:30.024+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:24:30.026+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:24:30.026+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:24:31.376+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:24:31.401+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.394 seconds
+[2024-07-18T00:25:01.982+0100] {processor.py:161} INFO - Started process (PID=10514) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:25:01.984+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:25:01.986+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:25:01.986+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:25:03.198+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:25:03.223+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.248 seconds
+[2024-07-18T00:25:33.820+0100] {processor.py:161} INFO - Started process (PID=10558) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:25:33.822+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:25:33.824+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:25:33.823+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:25:35.243+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:25:35.266+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.460 seconds
+[2024-07-18T00:26:05.886+0100] {processor.py:161} INFO - Started process (PID=10589) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:26:05.888+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:26:05.891+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:26:05.890+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:26:07.442+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:26:07.476+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.599 seconds
+[2024-07-18T00:26:38.172+0100] {processor.py:161} INFO - Started process (PID=10628) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:26:38.173+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:26:38.175+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:26:38.175+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:26:39.882+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:26:39.970+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.812 seconds
+[2024-07-18T00:27:10.073+0100] {processor.py:161} INFO - Started process (PID=10659) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:27:10.074+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:27:10.076+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:27:10.075+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:27:11.785+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:27:11.813+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.749 seconds
+[2024-07-18T00:27:42.090+0100] {processor.py:161} INFO - Started process (PID=10698) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:27:42.094+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:27:42.097+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:27:42.096+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:27:43.520+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:27:43.549+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.471 seconds
+[2024-07-18T00:28:13.768+0100] {processor.py:161} INFO - Started process (PID=10730) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:28:13.770+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:28:13.773+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:28:13.772+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:28:15.076+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:28:15.098+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.339 seconds
+[2024-07-18T00:28:45.298+0100] {processor.py:161} INFO - Started process (PID=10770) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:28:45.301+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:28:45.304+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:28:45.303+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:28:46.719+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:28:46.747+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.457 seconds
+[2024-07-18T00:29:17.587+0100] {processor.py:161} INFO - Started process (PID=10822) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:29:17.590+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:29:17.591+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:29:17.591+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:29:18.742+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:29:18.763+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.186 seconds
+[2024-07-18T00:29:48.946+0100] {processor.py:161} INFO - Started process (PID=10866) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:29:48.947+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:29:48.949+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:29:48.948+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:29:49.927+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:29:49.944+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.006 seconds
+[2024-07-18T00:30:20.102+0100] {processor.py:161} INFO - Started process (PID=10915) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:30:20.104+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:30:20.106+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:30:20.106+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:30:21.273+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:30:21.298+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.208 seconds
+[2024-07-18T00:30:51.354+0100] {processor.py:161} INFO - Started process (PID=10953) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:30:51.358+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:30:51.361+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:30:51.360+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:30:52.941+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:30:52.968+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.626 seconds
+[2024-07-18T00:31:23.744+0100] {processor.py:161} INFO - Started process (PID=10998) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:31:23.748+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:31:23.753+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:31:23.753+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:31:25.545+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:31:25.578+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.846 seconds
+[2024-07-18T00:31:56.057+0100] {processor.py:161} INFO - Started process (PID=11037) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:31:56.058+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:31:56.060+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:31:56.060+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:31:57.762+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:31:57.788+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.746 seconds
+[2024-07-18T00:32:28.147+0100] {processor.py:161} INFO - Started process (PID=11089) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:32:28.149+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:32:28.152+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:32:28.151+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:32:29.582+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:32:29.611+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.474 seconds
+[2024-07-18T00:32:59.961+0100] {processor.py:161} INFO - Started process (PID=11121) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:32:59.962+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:32:59.964+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:32:59.963+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:33:00.822+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:33:00.840+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 0.887 seconds
+[2024-07-18T00:33:30.999+0100] {processor.py:161} INFO - Started process (PID=11159) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:33:31.000+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:33:31.002+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:33:31.002+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:33:32.132+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:33:32.154+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.166 seconds
+[2024-07-18T00:34:02.694+0100] {processor.py:161} INFO - Started process (PID=11192) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:34:02.695+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:34:02.697+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:34:02.697+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:34:03.882+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:34:03.902+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.216 seconds
+[2024-07-18T00:34:34.075+0100] {processor.py:161} INFO - Started process (PID=11231) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:34:34.076+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:34:34.078+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:34:34.078+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:34:34.987+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:34:35.006+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 0.938 seconds
+[2024-07-18T00:35:05.218+0100] {processor.py:161} INFO - Started process (PID=11267) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:35:05.219+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:35:05.221+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:35:05.221+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:35:06.248+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:35:06.267+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.058 seconds
+[2024-07-18T00:35:36.440+0100] {processor.py:161} INFO - Started process (PID=11308) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:35:36.441+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:35:36.443+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:35:36.443+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:35:37.419+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:35:37.437+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.004 seconds
+[2024-07-18T00:36:08.007+0100] {processor.py:161} INFO - Started process (PID=11340) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:36:08.009+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:36:08.010+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:36:08.010+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:36:08.933+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:36:08.955+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 0.955 seconds
+[2024-07-18T00:36:39.051+0100] {processor.py:161} INFO - Started process (PID=11379) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:36:39.053+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:36:39.057+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:36:39.056+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:36:40.197+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:36:40.215+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.173 seconds
+[2024-07-18T00:37:10.676+0100] {processor.py:161} INFO - Started process (PID=11410) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:37:10.677+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:37:10.679+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:37:10.679+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:37:11.766+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:37:11.785+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.117 seconds
+[2024-07-18T00:37:41.979+0100] {processor.py:161} INFO - Started process (PID=11449) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:37:41.980+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:37:41.982+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:37:41.982+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:37:42.893+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:37:42.912+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 0.941 seconds
+[2024-07-18T00:38:13.644+0100] {processor.py:161} INFO - Started process (PID=11480) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:38:13.645+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:38:13.647+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:38:13.647+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:38:14.608+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:38:14.627+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 0.991 seconds
+[2024-07-18T00:38:44.868+0100] {processor.py:161} INFO - Started process (PID=11519) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:38:44.870+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:38:44.872+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:38:44.871+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:38:45.991+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:38:46.012+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.154 seconds
+[2024-07-18T00:39:16.491+0100] {processor.py:161} INFO - Started process (PID=11552) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:39:16.492+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:39:16.494+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:39:16.493+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:39:17.432+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:39:17.451+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 0.968 seconds
+[2024-07-18T00:39:48.275+0100] {processor.py:161} INFO - Started process (PID=11589) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:39:48.276+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:39:48.278+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:39:48.278+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:39:49.538+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:39:49.560+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.296 seconds
+[2024-07-18T00:40:20.059+0100] {processor.py:161} INFO - Started process (PID=11624) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:40:20.060+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:40:20.062+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:40:20.061+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:40:21.143+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:40:21.164+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.114 seconds
+[2024-07-18T00:40:51.700+0100] {processor.py:161} INFO - Started process (PID=11660) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:40:51.701+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:40:51.703+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:40:51.703+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:40:52.656+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:40:52.676+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 0.983 seconds
+[2024-07-18T00:41:23.003+0100] {processor.py:161} INFO - Started process (PID=11696) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:41:23.005+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:41:23.008+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:41:23.007+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:41:24.622+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:41:24.649+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.656 seconds
+[2024-07-18T00:41:54.872+0100] {processor.py:161} INFO - Started process (PID=11732) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:41:54.874+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:41:54.879+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:41:54.875+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:41:56.152+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:41:56.174+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.311 seconds
+[2024-07-18T00:42:26.353+0100] {processor.py:161} INFO - Started process (PID=11770) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:42:26.355+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:42:26.356+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:42:26.356+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:42:27.295+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:42:27.315+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 0.968 seconds
+[2024-07-18T00:42:57.347+0100] {processor.py:161} INFO - Started process (PID=11802) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:42:57.348+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:42:57.350+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:42:57.350+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:42:58.565+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:42:58.595+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.258 seconds
+[2024-07-18T00:43:29.235+0100] {processor.py:161} INFO - Started process (PID=11842) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:43:29.236+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:43:29.238+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:43:29.238+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:43:30.576+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:43:30.598+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.374 seconds
+[2024-07-18T00:44:01.035+0100] {processor.py:161} INFO - Started process (PID=11874) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:44:01.036+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:44:01.038+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:44:01.038+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:44:02.024+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:44:02.043+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.019 seconds
+[2024-07-18T00:44:32.228+0100] {processor.py:161} INFO - Started process (PID=11913) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:44:32.230+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:44:32.232+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:44:32.232+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:44:33.422+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:44:33.443+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.223 seconds
+[2024-07-18T00:45:03.590+0100] {processor.py:161} INFO - Started process (PID=11948) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:45:03.591+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:45:03.593+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:45:03.592+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:45:04.600+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:45:04.619+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.037 seconds
+[2024-07-18T00:45:34.795+0100] {processor.py:161} INFO - Started process (PID=11988) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:45:34.797+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:45:34.799+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:45:34.798+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:45:35.990+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:45:36.011+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.224 seconds
+[2024-07-18T00:46:06.144+0100] {processor.py:161} INFO - Started process (PID=12029) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:46:06.145+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:46:06.147+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:46:06.147+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:46:07.196+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:46:07.214+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.079 seconds
+[2024-07-18T00:46:37.371+0100] {processor.py:161} INFO - Started process (PID=12067) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:46:37.372+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:46:37.374+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:46:37.374+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:46:38.409+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:46:38.429+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.065 seconds
+[2024-07-18T00:47:08.607+0100] {processor.py:161} INFO - Started process (PID=12118) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:47:08.609+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:47:08.611+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:47:08.610+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:47:09.902+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:47:09.925+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.327 seconds
+[2024-07-18T00:47:40.126+0100] {processor.py:161} INFO - Started process (PID=12149) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:47:40.127+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:47:40.129+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:47:40.129+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:47:41.561+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:47:41.584+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.468 seconds
+[2024-07-18T00:48:12.006+0100] {processor.py:161} INFO - Started process (PID=12180) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:48:12.007+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:48:12.009+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:48:12.009+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:48:13.149+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:48:13.168+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.169 seconds
+[2024-07-18T00:48:43.511+0100] {processor.py:161} INFO - Started process (PID=12219) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:48:43.513+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:48:43.515+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:48:43.514+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:48:44.675+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:48:44.701+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.199 seconds
+[2024-07-18T00:49:14.787+0100] {processor.py:161} INFO - Started process (PID=12249) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:49:14.788+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:49:14.790+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:49:14.790+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:49:16.256+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:49:16.285+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.506 seconds
+[2024-07-18T00:49:46.460+0100] {processor.py:161} INFO - Started process (PID=12288) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:49:46.461+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:49:46.463+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:49:46.462+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:49:47.528+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:49:47.547+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.094 seconds
+[2024-07-18T00:49:57.813+0100] {processor.py:161} INFO - Started process (PID=12310) to work on /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:49:57.815+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py for tasks to queue
+[2024-07-18T00:49:57.816+0100] {logging_mixin.py:188} INFO - [2024-07-18T00:49:57.816+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:49:59.153+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py
+[2024-07-18T00:49:59.176+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/Jobs/Process.py took 1.371 seconds

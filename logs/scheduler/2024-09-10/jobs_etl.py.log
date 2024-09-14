@@ -1,0 +1,40 @@
+[2024-09-10T13:04:22.130+0100] {processor.py:161} INFO - Started process (PID=213115) to work on /home/huser/airflow_workspace/airflow/dags/jobs_etl.py
+[2024-09-10T13:04:22.133+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/jobs_etl.py for tasks to queue
+[2024-09-10T13:04:22.134+0100] {logging_mixin.py:188} INFO - [2024-09-10T13:04:22.134+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/jobs_etl.py
+[2024-09-10T13:04:26.900+0100] {logging_mixin.py:188} INFO - DAG defined successfully
+[2024-09-10T13:04:26.906+0100] {processor.py:840} INFO - DAG(s) 'jobs_etl' retrieved from /home/huser/airflow_workspace/airflow/dags/jobs_etl.py
+[2024-09-10T13:04:26.963+0100] {logging_mixin.py:188} INFO - [2024-09-10T13:04:26.963+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-10T13:04:27.002+0100] {logging_mixin.py:188} INFO - [2024-09-10T13:04:27.002+0100] {dag.py:3954} INFO - Setting next_dagrun for jobs_etl to 2024-09-09 18:00:00+00:00, run_after=2024-09-10 18:00:00+00:00
+[2024-09-10T13:04:27.032+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/jobs_etl.py took 4.918 seconds
+[2024-09-10T13:04:57.292+0100] {processor.py:161} INFO - Started process (PID=214417) to work on /home/huser/airflow_workspace/airflow/dags/jobs_etl.py
+[2024-09-10T13:04:57.294+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/jobs_etl.py for tasks to queue
+[2024-09-10T13:04:57.295+0100] {logging_mixin.py:188} INFO - [2024-09-10T13:04:57.295+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/jobs_etl.py
+[2024-09-10T13:05:01.211+0100] {logging_mixin.py:188} INFO - DAG defined successfully
+[2024-09-10T13:05:01.219+0100] {processor.py:840} INFO - DAG(s) 'jobs_etl' retrieved from /home/huser/airflow_workspace/airflow/dags/jobs_etl.py
+[2024-09-10T13:05:01.284+0100] {logging_mixin.py:188} INFO - [2024-09-10T13:05:01.283+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-10T13:05:01.321+0100] {logging_mixin.py:188} INFO - [2024-09-10T13:05:01.321+0100] {dag.py:3954} INFO - Setting next_dagrun for jobs_etl to 2024-09-09 18:00:00+00:00, run_after=2024-09-10 18:00:00+00:00
+[2024-09-10T13:05:01.356+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/jobs_etl.py took 4.075 seconds
+[2024-09-10T13:05:31.794+0100] {processor.py:161} INFO - Started process (PID=214995) to work on /home/huser/airflow_workspace/airflow/dags/jobs_etl.py
+[2024-09-10T13:05:31.797+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/jobs_etl.py for tasks to queue
+[2024-09-10T13:05:31.799+0100] {logging_mixin.py:188} INFO - [2024-09-10T13:05:31.798+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/jobs_etl.py
+[2024-09-10T13:05:39.133+0100] {logging_mixin.py:188} INFO - DAG defined successfully
+[2024-09-10T13:05:39.158+0100] {processor.py:840} INFO - DAG(s) 'jobs_etl' retrieved from /home/huser/airflow_workspace/airflow/dags/jobs_etl.py
+[2024-09-10T13:05:39.317+0100] {logging_mixin.py:188} INFO - [2024-09-10T13:05:39.316+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-10T13:05:39.423+0100] {logging_mixin.py:188} INFO - [2024-09-10T13:05:39.422+0100] {dag.py:3954} INFO - Setting next_dagrun for jobs_etl to 2024-09-09 18:00:00+00:00, run_after=2024-09-10 18:00:00+00:00
+[2024-09-10T13:05:39.485+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/jobs_etl.py took 7.720 seconds
+[2024-09-10T13:06:10.436+0100] {processor.py:161} INFO - Started process (PID=215158) to work on /home/huser/airflow_workspace/airflow/dags/jobs_etl.py
+[2024-09-10T13:06:10.438+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/jobs_etl.py for tasks to queue
+[2024-09-10T13:06:10.439+0100] {logging_mixin.py:188} INFO - [2024-09-10T13:06:10.439+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/jobs_etl.py
+[2024-09-10T13:06:13.736+0100] {logging_mixin.py:188} INFO - DAG defined successfully
+[2024-09-10T13:06:13.740+0100] {processor.py:840} INFO - DAG(s) 'jobs_etl' retrieved from /home/huser/airflow_workspace/airflow/dags/jobs_etl.py
+[2024-09-10T13:06:13.778+0100] {logging_mixin.py:188} INFO - [2024-09-10T13:06:13.778+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-10T13:06:13.810+0100] {logging_mixin.py:188} INFO - [2024-09-10T13:06:13.809+0100] {dag.py:3954} INFO - Setting next_dagrun for jobs_etl to 2024-09-09 18:00:00+00:00, run_after=2024-09-10 18:00:00+00:00
+[2024-09-10T13:06:13.833+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/jobs_etl.py took 3.407 seconds
+[2024-09-10T13:06:44.122+0100] {processor.py:161} INFO - Started process (PID=215288) to work on /home/huser/airflow_workspace/airflow/dags/jobs_etl.py
+[2024-09-10T13:06:44.124+0100] {processor.py:830} INFO - Processing file /home/huser/airflow_workspace/airflow/dags/jobs_etl.py for tasks to queue
+[2024-09-10T13:06:44.126+0100] {logging_mixin.py:188} INFO - [2024-09-10T13:06:44.125+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/huser/airflow_workspace/airflow/dags/jobs_etl.py
+[2024-09-10T13:06:47.412+0100] {logging_mixin.py:188} INFO - DAG defined successfully
+[2024-09-10T13:06:47.415+0100] {processor.py:840} INFO - DAG(s) 'jobs_etl' retrieved from /home/huser/airflow_workspace/airflow/dags/jobs_etl.py
+[2024-09-10T13:06:47.451+0100] {logging_mixin.py:188} INFO - [2024-09-10T13:06:47.451+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-10T13:06:47.473+0100] {logging_mixin.py:188} INFO - [2024-09-10T13:06:47.473+0100] {dag.py:3954} INFO - Setting next_dagrun for jobs_etl to 2024-09-09 18:00:00+00:00, run_after=2024-09-10 18:00:00+00:00
+[2024-09-10T13:06:47.490+0100] {processor.py:183} INFO - Processing /home/huser/airflow_workspace/airflow/dags/jobs_etl.py took 3.382 seconds

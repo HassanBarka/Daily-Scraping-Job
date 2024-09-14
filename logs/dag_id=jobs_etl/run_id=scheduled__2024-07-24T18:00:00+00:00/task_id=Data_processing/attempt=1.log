@@ -1,0 +1,17 @@
+[2024-07-26T00:47:52.419+0100] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-07-26T00:47:52.451+0100] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: jobs_etl.Data_processing scheduled__2024-07-24T18:00:00+00:00 [queued]>
+[2024-07-26T00:47:52.458+0100] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: jobs_etl.Data_processing scheduled__2024-07-24T18:00:00+00:00 [queued]>
+[2024-07-26T00:47:52.458+0100] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2024-07-26T00:47:52.469+0100] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): Data_processing> on 2024-07-24 18:00:00+00:00
+[2024-07-26T00:47:52.478+0100] {standard_task_runner.py:63} INFO - Started process 52945 to run task
+[2024-07-26T00:47:52.482+0100] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'jobs_etl', 'Data_processing', 'scheduled__2024-07-24T18:00:00+00:00', '--job-id', '215', '--raw', '--subdir', 'DAGS_FOLDER/jobs_etl.py', '--cfg-path', '/tmp/tmpscjdvx_7']
+[2024-07-26T00:47:52.484+0100] {standard_task_runner.py:91} INFO - Job 215: Subtask Data_processing
+[2024-07-26T00:47:52.559+0100] {task_command.py:426} INFO - Running <TaskInstance: jobs_etl.Data_processing scheduled__2024-07-24T18:00:00+00:00 [running]> on host huser
+[2024-07-26T00:47:52.672+0100] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='hassounibarka@gmail.com' AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='jobs_etl' AIRFLOW_CTX_TASK_ID='Data_processing' AIRFLOW_CTX_EXECUTION_DATE='2024-07-24T18:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-07-24T18:00:00+00:00'
+[2024-07-26T00:47:52.675+0100] {taskinstance.py:430} INFO - ::endgroup::
+[2024-07-26T00:48:35.774+0100] {python.py:237} INFO - Done. Returned value was: None
+[2024-07-26T00:48:35.775+0100] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-07-26T00:48:35.790+0100] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=jobs_etl, task_id=Data_processing, run_id=scheduled__2024-07-24T18:00:00+00:00, execution_date=20240724T180000, start_date=20240725T234752, end_date=20240725T234835
+[2024-07-26T00:48:35.852+0100] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-07-26T00:48:35.880+0100] {taskinstance.py:3498} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-07-26T00:48:35.882+0100] {local_task_job_runner.py:222} INFO - ::endgroup::

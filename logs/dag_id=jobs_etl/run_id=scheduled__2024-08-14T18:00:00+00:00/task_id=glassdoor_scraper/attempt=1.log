@@ -1,0 +1,40 @@
+[2024-08-15T20:18:09.240+0100] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-08-15T20:18:09.281+0100] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: jobs_etl.glassdoor_scraper scheduled__2024-08-14T18:00:00+00:00 [queued]>
+[2024-08-15T20:18:09.290+0100] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: jobs_etl.glassdoor_scraper scheduled__2024-08-14T18:00:00+00:00 [queued]>
+[2024-08-15T20:18:09.291+0100] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2024-08-15T20:18:09.313+0100] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): glassdoor_scraper> on 2024-08-14 18:00:00+00:00
+[2024-08-15T20:18:09.328+0100] {standard_task_runner.py:63} INFO - Started process 27647 to run task
+[2024-08-15T20:18:09.333+0100] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'jobs_etl', 'glassdoor_scraper', 'scheduled__2024-08-14T18:00:00+00:00', '--job-id', '381', '--raw', '--subdir', 'DAGS_FOLDER/jobs_etl.py', '--cfg-path', '/tmp/tmpmgzjfh7z']
+[2024-08-15T20:18:09.336+0100] {standard_task_runner.py:91} INFO - Job 381: Subtask glassdoor_scraper
+[2024-08-15T20:18:09.421+0100] {task_command.py:426} INFO - Running <TaskInstance: jobs_etl.glassdoor_scraper scheduled__2024-08-14T18:00:00+00:00 [running]> on host huser
+[2024-08-15T20:18:09.562+0100] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='hassounibarka@gmail.com' AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='jobs_etl' AIRFLOW_CTX_TASK_ID='glassdoor_scraper' AIRFLOW_CTX_EXECUTION_DATE='2024-08-14T18:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-08-14T18:00:00+00:00'
+[2024-08-15T20:18:09.563+0100] {taskinstance.py:430} INFO - ::endgroup::
+[2024-08-15T20:19:15.733+0100] {logging_mixin.py:188} INFO - 6 jobs found for data Scientist
+[2024-08-15T20:21:01.920+0100] {logging_mixin.py:188} INFO - 1 Jobs extracted2 Jobs extracted3 Jobs extracted4 Jobs extracted5 Jobs extracted6 Jobs extracted5 jobs found for data analyst
+[2024-08-15T20:23:16.523+0100] {logging_mixin.py:188} INFO - 1 Jobs extracted2 Jobs extracted3 Jobs extracted4 Jobs extracted5 Jobs extracted13 jobs found for data engineer
+[2024-08-15T20:26:21.541+0100] {logging_mixin.py:188} INFO - 1 Jobs extracted2 Jobs extracted3 Jobs extracted4 Jobs extracted5 Jobs extracted6 Jobs extracted7 Jobs extracted8 Jobs extracted9 Jobs extracted10 Jobs extracted11 Jobs extracted12 Jobs extracted13 Jobs extractedKeyword error
+[2024-08-15T20:26:21.616+0100] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-08-15T20:26:21.617+0100] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/huser/airflow_workspace/airflow_env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/huser/airflow_workspace/airflow_env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/huser/airflow_workspace/airflow_env/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/huser/airflow_workspace/airflow_env/lib/python3.10/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+  File "/home/huser/airflow_workspace/airflow_env/lib/python3.10/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/huser/airflow_workspace/airflow/dags/jobs_etl.py", line 31, in get_glassdoor_data
+    df = glassdoor_scraper.get_datas(Keywords)
+  File "/home/huser/airflow_workspace/airflow/dags/Jobs/GlassdoorScraper.py", line 143, in get_datas
+    links = get_links(key)
+  File "/home/huser/airflow_workspace/airflow/dags/Jobs/GlassdoorScraper.py", line 69, in get_links
+    return Links
+UnboundLocalError: local variable 'Links' referenced before assignment
+[2024-08-15T20:26:21.643+0100] {taskinstance.py:1206} INFO - Marking task as UP_FOR_RETRY. dag_id=jobs_etl, task_id=glassdoor_scraper, run_id=scheduled__2024-08-14T18:00:00+00:00, execution_date=20240814T180000, start_date=20240815T191809, end_date=20240815T192621
+[2024-08-15T20:26:21.663+0100] {standard_task_runner.py:110} ERROR - Failed to execute job 381 for task glassdoor_scraper (local variable 'Links' referenced before assignment; 27647)
+[2024-08-15T20:26:21.715+0100] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2024-08-15T20:26:21.777+0100] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-08-15T20:26:21.779+0100] {local_task_job_runner.py:222} INFO - ::endgroup::
